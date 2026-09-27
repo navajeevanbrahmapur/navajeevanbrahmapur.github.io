@@ -1,0 +1,38 @@
+---
+import { site } from '../config';
+import { url } from '../lib/site';
+
+const href = `https://wa.me/${site.whatsapp.number}?text=${encodeURIComponent(site.whatsapp.message)}`;
+---
+
+<a class="whatsapp-widget" href={href} target="_blank" rel="noopener noreferrer" aria-label="Chat with Navajeevan Seva Trust on WhatsApp (opens in a new tab)">
+  <img src={url('images/branding/whatsapp-glyph-white.png')} width="36" height="36" alt="" aria-hidden="true"/>
+</a>
+
+<style>
+  .whatsapp-widget {
+    position: fixed;
+    right: calc(16px + env(safe-area-inset-right));
+    bottom: calc(16px + env(safe-area-inset-bottom));
+    z-index: 40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--widget-size, 60px);
+    height: var(--widget-size, 60px);
+    border-radius: 50%;
+    background: #00e785;
+    box-shadow: 0 6px 18px #14291f40;
+    transition: transform .2s ease;
+  }
+  .whatsapp-widget img { display: block; width: 60%; height: 60%; }
+  .whatsapp-widget:hover { transform: scale(1.06); }
+  .whatsapp-widget:focus-visible { outline: 3px solid #f4b55b; outline-offset: 4px; }
+  @media (max-width: 1023px) { .whatsapp-widget { --widget-size: 54px; } }
+  @media (max-width: 767px) { .whatsapp-widget { --widget-size: 50px; } }
+  @media (max-width: 639px) { .whatsapp-widget { --widget-size: 46px; } }
+  @media (prefers-reduced-motion: reduce) {
+    .whatsapp-widget { transition: none; }
+    .whatsapp-widget:hover { transform: none; }
+  }
+</style>

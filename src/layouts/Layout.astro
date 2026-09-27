@@ -4,6 +4,7 @@ import { site, photos, navigation } from '../config';
 import { url } from '../lib/site';
 import Icon from '../components/Icon.astro';
 import Favicons from '../components/Favicons.astro';
+import WhatsAppWidget from '../components/WhatsAppWidget.astro';
 import ScrollReveal from '../components/ScrollReveal.astro';
 import type { PhotoData } from '../lib/image-types';
 interface Props { title: string; description: string; active?: string; image?: string | PhotoData; scrollReveal?: boolean; }
@@ -101,6 +102,7 @@ const socialImage = Astro.site ? new URL(url((typeof image === 'string' ? photos
       </div>
       <div class="border-t border-white/15"><div class="container flex flex-col justify-between gap-3 py-5 text-[10px] leading-relaxed text-white/65 md:flex-row"><p>© {new Date().getFullYear()} {site.name}. {site.tagline}</p></div></div>
     </footer>
+    <WhatsAppWidget/>
     <script>
       const toggle = document.querySelector<HTMLButtonElement>('#menu-toggle');
       const navigation = document.querySelector<HTMLElement>('#main-navigation');
