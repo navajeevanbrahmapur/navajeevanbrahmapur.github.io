@@ -24,7 +24,6 @@ export const donation = {
     { title: 'Support one Gomata', description: 'Contribute towards the care of one cow at the Goshala.', icon: 'heart', options: [{ label: 'One cow’s care', amount: 1000, period: 'per month' }] },
   ] satisfies Sponsorship[],
   accounts: [
-    { holder: 'Navajeevan Seva Ashram', number: '4794000100023666', ifsc: 'PUNB0479400', bank: 'Punjab National Bank', branch: 'Jenanahospital Road, Berhampur, Ganjam' },
     { holder: 'Navajeevan Seva Trust', number: '293110100044278', ifsc: 'UBIN0829315', bank: 'Union Bank of India', branch: 'Bishnu Nagar, Aska Road, Berhampur, Ganjam' },
     { holder: 'Navajeevan Seva Trust', number: '84048316367', ifsc: 'SBIN0RRUKGB', bank: 'Utkal Grameen Bank', branch: 'Courtpeta, Brahmapur, Ganjam' },
   ] satisfies BankAccount[],
