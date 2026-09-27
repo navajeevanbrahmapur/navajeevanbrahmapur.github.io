@@ -1,5 +1,5 @@
 ---
-title: "2026 Achievements"
+title: "Achievements 2026"
 date: "2026-09-20"
 description: "Students Achievements."
 cover: "poojawinner.webp"
