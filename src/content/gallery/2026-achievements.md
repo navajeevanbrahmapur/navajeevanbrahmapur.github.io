@@ -5,6 +5,6 @@ description: "Students Achievements."
 cover: "poojawinner.webp"
 images:
   - filename: "poojawinner.webp"
-    alt: "Children sitting in a circle while a teacher reads a story"
+    alt: "Pooja won gold medal in state level"
     caption: "Pooja won gold medal in state level"
 ---
