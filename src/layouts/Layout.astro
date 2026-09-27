@@ -7,8 +7,9 @@ import Favicons from '../components/Favicons.astro';
 import WhatsAppWidget from '../components/WhatsAppWidget.astro';
 import ScrollReveal from '../components/ScrollReveal.astro';
 import type { PhotoData } from '../lib/image-types';
-interface Props { title: string; description: string; active?: string; image?: string | PhotoData; scrollReveal?: boolean; }
-const { title, description, active = '', image = 'reference-community', scrollReveal = true } = Astro.props;
+interface Props { title: string; fullTitle?: string; description: string; active?: string; image?: string | PhotoData; scrollReveal?: boolean; }
+const { title, fullTitle, description, active = '', image = 'reference-community', scrollReveal = true } = Astro.props;
+const documentTitle = fullTitle ?? `${title} | ${site.name}`;
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : undefined;
 const socialImage = Astro.site ? new URL(url((typeof image === 'string' ? photos[image] : image).src), Astro.site).href : undefined;
 ---
@@ -20,11 +21,11 @@ const socialImage = Astro.site ? new URL(url((typeof image === 'string' ? photos
     <meta name="theme-color" content="#203e32"/>
     <meta name="description" content={description}/>
     <meta name="author" content="Website developed by Abhishek Sahu (abhisheksahu.cse@gmail.com, +916372041828)"/>
-    <title>{title} | {site.name}</title>
+    <title>{documentTitle}</title>
     <Favicons/>
     {canonical && <link rel="canonical" href={canonical}/>}
     <meta property="og:type" content="website"/>
-    <meta property="og:title" content={`${title} | ${site.name}`}/>
+    <meta property="og:title" content={documentTitle}/>
     <meta property="og:description" content={description}/>
     <meta property="og:site_name" content={site.name}/>
     {canonical && <meta property="og:url" content={canonical}/>}
@@ -62,7 +63,7 @@ const socialImage = Astro.site ? new URL(url((typeof image === 'string' ? photos
         <a href={url()} class="flex items-center gap-2.5 shrink-0" aria-label={`${site.name} home`}>
           <img src={url(site.logo.src)} alt={`${site.name} — ${site.city}`} width={site.logo.width} height={site.logo.height} class="h-auto w-36 object-contain sm:w-48"/>
         </a>
-        <nav id="main-navigation" class="desktop-nav items-center gap-7 xl:flex" aria-label="Main navigation">
+        <nav id="main-navigation" class="desktop-nav items-center gap-2 xl:flex" aria-label="Main navigation">
           {navigation.map(([label, path]) => <a href={url(path)} data-nav-path={path} aria-current={active === path ? 'page' : undefined} class="relative text-xs font-medium text-muted">{label}</a>)}
         </nav>
         <div class="flex items-center gap-3"><a class="button button-dark min-h-10 px-4 sm:px-5 text-xs" href={url('donation/')} aria-current={active === 'donation/' ? 'page' : undefined}><span class="hidden sm:inline">Make a</span> donation <Icon name="heart" class="size-4"/></a><button id="menu-toggle" class="flex size-11 items-center justify-center rounded-full border border-forest/20 xl:hidden" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div>

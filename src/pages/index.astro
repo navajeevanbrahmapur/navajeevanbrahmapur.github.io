@@ -14,7 +14,7 @@ const albums = (await getCollection('gallery')).sort(sortAlbums).slice(0, 3);
 const projects = await Promise.all(home.projects.map(async id => { const entry = await getEntry('events', id); if (!entry) throw new Error(`Missing reference project: ${id}`); return entry; }));
 const services = await Promise.all(home.services.map(async service => { const entry = await getEntry('stories', service.id); if (!entry) throw new Error(`Missing reference service: ${service.id}`); return { ...service, photo: await contentImage(entry) }; }));
 ---
-<Layout scrollReveal title="A little care. A new beginning." description={`A home for care, learning, and belonging. Discover the people and programmes of ${site.name}.`} image="reference-children" active="">
+<Layout scrollReveal title="A little care. A new beginning." fullTitle="Navajeevan Seva Trust, Brahmapur" description={`A home for care, learning, and belonging. Discover the people and programmes of ${site.name}.`} image="reference-children" active="">
   <HomeSlider/>
   <section id="about" class="container section-space home-about" aria-labelledby="about-title">
     <header class="about-heading" data-reveal><p class="eyebrow">{site.name}</p><h2 id="about-title">About Us</h2></header>

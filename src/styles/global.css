@@ -90,7 +90,9 @@
 }
 
 .brand-icon { width: 42px; height: 42px; flex: none; }
-.desktop-nav a:is([aria-current='page'], [aria-current='location']) { color: #203e32; }
+.desktop-nav a { display: inline-flex; align-items: center; min-height: 40px; padding: 0 12px; border-radius: 999px; }
+.desktop-nav a:is([aria-current='page'], [aria-current='location']) { background: #e8ede4; color: #203e32; }
+.desktop-nav a:hover, .desktop-nav a:focus-visible { background: #f4b55b; color: #203e32; }
 .desktop-nav a:is([aria-current='page'], [aria-current='location'])::after { content: ''; position: absolute; width: 4px; height: 4px; border-radius: 50%; background: #a76016; bottom: -9px; left: calc(50% - 2px); }
 .hero-photo { border-radius: 140px 16px 16px 16px; }
 .hero-note { box-shadow: 0 12px 40px #203e3210; }
@@ -107,7 +109,7 @@
 @media (max-width: 1279px) {
   .desktop-nav { display: none; }
   .desktop-nav.is-open { display: flex; position: absolute; left: 0; right: 0; top: 100%; flex-direction: column; align-items: stretch; padding: 20px 24px 28px; background: #faf8f1; border-bottom: 1px solid #203e3220; box-shadow: 0 10px 20px #203e3210; gap: 0; max-height: calc(100dvh - var(--site-header-height, 140px)); overflow-y: auto; }
-  .desktop-nav.is-open a { padding: 14px 0; }
+  .desktop-nav.is-open a { padding: 14px 16px; border-radius: 12px; }
   .desktop-nav a:is([aria-current='page'], [aria-current='location'])::after { display: none; }
   .hero-photo { border-top-left-radius: 90px; }
 }
