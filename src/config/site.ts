@@ -22,7 +22,7 @@ export const site = {
   emails: ['navajeevansevaashram.bam@gmail.com', 'navajeevansevatrust@gmail.com'],
   phones: [{ label: '+91 94373-22820', href: 'tel:+919437322820' }, { label: '+91 70085-30044', href: 'tel:+917008530044' }],
   whatsapp: {
-    number: '917008530044',
+    number: '919437322820',
     message: 'Namaste! I found Navajeevan Seva Trust through your website. I would like to learn more about your programmes.',
   },
   addressLines: ['Madanmohanpur, Kanishi', 'Brahmapur, Ganjam, Odisha, 761008'],
