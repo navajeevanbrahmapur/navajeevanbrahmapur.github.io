@@ -6,16 +6,6 @@ image: "a.webp"
 imageAlt: "Chairs donation at the Ashram"
 
 
-title: "Chairs Donated by DAV school 2026"
-excerpt: "Chairs Donated by DAV school on 3rd Oct 2026"
-category: "Donation"
-image: "b.webp"
-
-title: "Chairs Donated by DAV school 2026"
-excerpt: "Chairs Donated by DAV school on 3rd Oct 2026"
-category: "Donation"
-image: "c.webp"
-
 ---
 
 Heartfelt Thanks and Gratitude
