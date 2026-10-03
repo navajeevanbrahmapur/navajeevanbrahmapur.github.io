@@ -1,6 +1,7 @@
 ---
 title: "MBD Donation 2026"
 excerpt: "MBD Book donated by Shri Nihar Ranjan Panda."
+date: "2026-09-27"
 category: "Donation"
 image: "mbd.webp"
 imageAlt: "Volunteers and children learning together at the Ashram"
@@ -14,4 +15,3 @@ imageAlt: "Volunteers and children learning together at the Ashram"
 ईश्वर आपको सदैव स्वस्थ, सुखी एवं प्रसन्न रखें और आपका सहयोग इसी प्रकार हमारे विद्यार्थियों को मिलता रहे।
 सादर धन्यवाद एवं हार्दिक आभार।
 नवजीवन सेवा ट्रस्ट
-
