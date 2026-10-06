@@ -2,9 +2,10 @@ interface Slide { image: string; eyebrow: string; title: string; description: st
 interface Value { title: string; icon: string; description: string; }
 interface Service { id: string; title: string; description: string; }
 interface TeamMember { name: string; role: string; image: string; }
+interface TeamGroup { id: string; title: string; description: string; image: string; }
 interface HomeConfig {
   slides: Slide[]; about: { title: string; paragraphs: string[]; images: { image: string; caption: string }[] };
-  projects: string[]; values: Value[]; services: Service[]; team: TeamMember[];
+  projects: string[]; values: Value[]; services: Service[]; team: TeamMember[]; teamGroups: TeamGroup[];
   donation: { title: string; description: string; cta: string };
   contact: { title: string; description: string; cta: string };
 }
@@ -45,6 +46,13 @@ export const home: HomeConfig = {
     { name: 'Dr. K. Sridhar Acharya', role: 'Founder & President, Navajeevan Blind Relief Centre, Tirupati (AP)', image: 'reference-acharya' },
     { name: 'Dr. Sangita Babu', role: 'President, Navajeevan Seva Trust, Brahmapur', image: 'reference-babu' },
     { name: 'Sri Susant Kumar Maharana', role: 'Secretary cum Incharge, Navajeevan Seva Trust', image: 'reference-maharana' },
+    { name: 'Srikant Reddy', role: 'Treasurer & Gaushala Manager', image: 'team-srikant' },
+  ],
+  teamGroups: [
+    { id: 'teaching', title: 'Teaching Team', description: 'Our educators nurture learning, curiosity, and confidence in the children we serve.', image: 'team-teaching' },
+    { id: 'gaushala-care', title: 'Gaushala Care Team', description: 'The people caring for the cows and calves support their daily food, shelter, and wellbeing.', image: 'team-gaushala' },
+    { id: 'elder-care', title: 'Elder Care Team', description: 'Our care team offers older women companionship, practical help, and a welcoming place to belong.', image: 'team-elder-care' },
+    { id: 'community-supporters', title: 'Community Supporters', description: 'Volunteers and helping members share their time and kindness across the Ashram’s work.', image: 'team-community' },
   ],
   donation: { title: 'A little generosity.\nA lasting difference.', description: 'Help sustain the meals, learning, shelter, and everyday care that make this community a home.', cta: 'Make a donation' },
   contact: { title: 'There’s a place for you here.', description: 'Visit by prior arrangement, explore volunteering, or simply start a conversation.', cta: 'Get in touch' },
