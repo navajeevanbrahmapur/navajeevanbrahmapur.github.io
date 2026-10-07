@@ -46,7 +46,7 @@ export const home: HomeConfig = {
     { name: 'Dr. K. Sridhar Acharya', role: 'Founder & President, Navajeevan Blind Relief Centre, Tirupati (AP)', image: 'reference-acharya' },
     { name: 'Dr. Sangita Babu', role: 'President, Navajeevan Seva Trust, Brahmapur', image: 'reference-babu' },
     { name: 'Sri Susant Kumar Maharana', role: 'Secretary cum Incharge, Navajeevan Seva Trust', image: 'reference-maharana' },
-    { name: 'A Srikant Reddy', role: 'Treasurer & Gaushala In Charge', image: 'team-srikant' },
+    { name: 'Sri A Srikant Reddy', role: 'Treasurer & Gaushala In Charge', image: 'team-srikant' },
   ],
   teamGroups: [
     { id: 'teaching', title: 'Teaching Team', description: 'Our educators nurture learning, curiosity, and confidence in the children we serve.', image: 'team-teaching' },
