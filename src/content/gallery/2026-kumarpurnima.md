@@ -11,8 +11,14 @@ images:
     alt: "Ashram sisters are worshiping Chandra dev"
     caption: "Ashram sisters are worshiping Chandra dev"
   - filename: "b.webp"
+    alt: ""
+    caption: ""
   - filename: "c.webp"
+    alt: ""
+    caption: ""
   - filename: "e.webp"
+    alt: ""
+    caption: ""
 ---
 
 
