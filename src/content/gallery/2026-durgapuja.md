@@ -28,9 +28,6 @@ images:
   - filename: "h.webp"
     alt: "Worship performing by Sangha brothers"
     caption: "Worship performing by Sangha brothers"
-  - filename: "ivdo.webp"
-    alt: "Worship performing by President of Navajeevan Konisi"
-    caption: "Worship performing by President of Navajeevan Konisi"
   ---
 
 
