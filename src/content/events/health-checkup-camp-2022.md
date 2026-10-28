@@ -5,7 +5,7 @@ excerpt: "A community health camp by Friends Helping Club, BAM, with doctors fro
 category: "Community health"
 image: "cover.webp"
 imageAlt: "The Ashram community celebrating Holi"
-imageSource: ""
+imageSource: "https://www.navajeevanbam.com/assets/images/Navajeevan-Ashram-Holi-Festival.jpg"
 source: "https://www.navajeevanbam.com/home"
 status: "past"
 location: "Brahmapur, Odisha"
