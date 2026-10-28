@@ -28,6 +28,6 @@ images:
   - filename: "h.webp"
     alt: "Worship performing by Sangha brothers"
     caption: "Worship performing by Sangha brothers"
-  ---
+---
 
 
