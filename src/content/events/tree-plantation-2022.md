@@ -5,7 +5,7 @@ excerpt: "Tree planting with DLSO advocates and judges from Brahmapur on World E
 category: "Environment"
 image: "cover.webp"
 imageAlt: "The Ashram community celebrating Holi"
-imageSource: "https://www.navajeevanbam.com/assets/images/Navajeevan-Ashram-Holi-Festival.jpg"
+imageSource: ""
 source: "https://www.navajeevanbam.com/home"
 status: "past"
 location: "Brahmapur, Odisha"

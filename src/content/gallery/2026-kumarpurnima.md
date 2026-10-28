@@ -1,7 +1,7 @@
 ---
-title: "Kumar purnima 2026"
-date: "2026-10-25"
-description: "Kumar purnima Utsav"
+title: "Eye Checkup 2026 for oldage people"
+date: "2026-10-11"
+description: "Eye Checkup 2026 for oldage people"
 cover: "a.webp"
 images:
   - filename: "a.webp"
