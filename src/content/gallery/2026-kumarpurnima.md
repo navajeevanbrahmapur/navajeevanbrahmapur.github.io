@@ -1,7 +1,7 @@
 ---
-title: "Eye Checkup 2026 for oldage people"
+title: "Kumar purnima utsav 2026"
 date: "2026-10-11"
-description: "Eye Checkup 2026 for oldage people"
+description: "Kumar purnima utsav 2026 by Ashram inmates"
 cover: "a.webp"
 images:
   - filename: "a.webp"
