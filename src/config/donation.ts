@@ -12,7 +12,7 @@ export const donation = {
   checkedOn: '2026-09-21',
   qr: {
     src: 'images/donation/donation-qr.jpeg', width: 768, height: 996,
-    source: 'https://www.navajeevanbam.com/assets/images/QR-Code-for-donation-768x996.jpeg',
+    source: 'https://www.navajeevanbam.com/assets/images/QR-Code-for-donation-768x996.JPG',
   },
   sponsorships: [
     { title: 'Sponsor a breakfast', description: 'Start the day with a nourishing meal for the Ashram community.', icon: 'sun', options: [{ label: 'Breakfast', amount: 4000, period: 'per meal' }, { label: 'Special breakfast', amount: 5000, period: 'per meal' }] },
