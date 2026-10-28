@@ -11,14 +11,14 @@ images:
     alt: "Chandrama puja started by Ashram Sisters"
     caption: "Chandrama puja started by Ashram Sisters"
   - filename: "c.webp"
-    alt: ""
-    caption: ""
+    alt: "Chandrama puja going on by Ashram Sisters"
+    caption: "Chandrama puja going on by Ashram Sisters"
   - filename: "d.webp"
-    alt: ""
-    caption: ""
+    alt: "Chandrama puja completed by Ashram Sisters"
+    caption: "Chandrama puja completed by Ashram Sisters"
   - filename: "e.webp"
-    alt: ""
-    caption: ""
+    alt: "Ashram brothers group"
+    caption: "Ashram brothers group"
 ---
 
 
