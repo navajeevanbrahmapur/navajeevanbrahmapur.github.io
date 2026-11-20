@@ -5,13 +5,13 @@ description: "Moments from Diwali celebration at Navajeevan Seva Trust, with pra
 cover: "a.webp"
 images:
   - filename: "a.webp"
-    alt: ""
+    alt: "1"
   - filename: "b.webp"
-    alt: ""
+    alt: "2"
   - filename: "c.webp"
-    alt: ""
+    alt: "3"
   - filename: "d.webp"
-    alt: ""
+    alt: "4"
   - filename: "e.webp"
     alt: "Navajeevan ashram Diwali celebration"
 ---
