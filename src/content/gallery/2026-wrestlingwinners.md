@@ -1,0 +1,22 @@
+---
+title: "State wrestling champions competition 2026 at Sambalpur"
+date: "2026-11-03"
+description: "State wrestling champions competition 2026 at Sambalpur"
+cover: "ashramcandidates.webp"
+images:
+  - filename: "ashramcandidates.webp"
+    alt: "Navajeevan ashram participation students"
+    caption: "Navajeevan ashram participation students."
+  - filename: "awarddipti.webp"
+    alt: "Dipti rani jani award receiving"
+    caption: "Dipti rani jani award receiving."
+  - filename: "awardMeera.webp"
+    alt: "Mira Rana award receiving"
+    caption: "Mira Rana award receiving."
+  - filename: "awardpari.webp"
+    alt: "Pari Pradhan award receiving"
+    caption: "Pari Pradhan award receiving."
+  - filename: "winnersgroup.webp"
+    alt: "Winner students from Brahmapur with Coach N Balakrishna Reddy"
+    caption: "Winner students from Brahmapur with Coach N Balakrishna Reddy."
+---
