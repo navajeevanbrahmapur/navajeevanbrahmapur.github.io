@@ -5,10 +5,7 @@ date: "2026-08-20"
 category: "Tour"
 image: "sciencetour1.webp"
 imageAlt: "Volunteers and children learning together at the Ashram"
-image: "sciencetour2.webp"
-imageAlt: "Volunteers and children learning together at the Ashram"
-image: "sciencetour3.webp"
-imageAlt: "Volunteers and children learning together at the Ashram"
+
 
 ---
 
