@@ -1,0 +1,22 @@
+---
+title: "Science Tour Bhubaneswar 2026"
+date: "2026-08-20"
+description: "Science Tour Bhubaneswar 2026"
+cover: "sciencetour1.webp"
+images:
+  - filename: "sciencetour1.webp"
+    alt: "Pathani Samanta Planetarium"
+    caption: "Pathani Samanta Planetarium."
+  - filename: "sciencetour2.webp"
+    alt: "Pathani Samanta Planetarium1"
+    caption: "Pathani Samanta Planetarium2."
+  - filename: "sciencetour3.webp"
+    alt: "Science park"
+    caption: "Science park."
+  - filename: "sciencetour4.webp"
+    alt: "Odisha Satate muesium"
+    caption: "Odisha Satate muesium."
+  - filename: "sciencetour5.webp"
+    alt: "Science park1"
+    caption: "Science park1."
+---
